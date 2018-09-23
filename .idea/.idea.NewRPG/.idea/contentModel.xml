@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Luis\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Luis\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_NewRPG.-987323894.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Luis\RiderProjects\gitnewrpggame" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Core" t="Include">
+            <e p="Player" t="Include">
+              <e p="Atribute.cs" t="Include" />
+              <e p="Flag.cs" t="Include" />
+              <e p="Item.cs" t="Include" />
+              <e p="Position.cs" t="Include" />
+              <e p="Skill.cs" t="Include" />
+              <e p="Slot.cs" t="Include" />
+              <e p="Stats.cs" t="Include" />
+              <e p="Town.cs" t="Include" />
+              <e p="Vocation.cs" t="Include" />
+            </e>
+          </e>
+          <e p="GlobalEvents" t="Include">
+            <e p="ObjectToXML.cs" t="Include" />
+          </e>
+          <e p="Monster" t="Include">
+            <e p="MonsterBase.cs" t="Include" />
+          </e>
+          <e p="Outros" t="Include">
+            <e p="CameraPlayer.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="PlayerBase.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="NewRPG.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
