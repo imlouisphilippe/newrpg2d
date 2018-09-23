@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Core.Player;
+using Prefab;
 using UnityEngine;
 
 public class PlayerBase : MonoBehaviour
@@ -65,6 +67,15 @@ public class PlayerBase : MonoBehaviour
 	private void Start()
 	{
 		Rb2d = GetComponent<Rigidbody2D>();
+		
+		this.Ring = new Slot()
+		{
+			Item = WorldItems.Rings.First(i=>i.Id==10001)
+		};
+		this.Stats = new Stats()
+		{
+			Speed = 15,
+		};
 	}
 
 	// Update is called once per frame
